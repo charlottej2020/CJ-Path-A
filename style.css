@@ -12,6 +12,7 @@ h1 {
 	padding-bottom: 20px;
 	margin-bottom: 4px;
 }
+
 a:visited {
 	color: white
 }
@@ -20,7 +21,7 @@ a:active, a:hover {
 }
 #navigation {
 	margin-top: 4px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	font-family: courier new ;
 	font-size: 22px;
 	color: white;
@@ -35,8 +36,8 @@ a:active, a:hover {
 	 }
 
 #body {
-	margin-top: 30px;
-	font-family:verdana ;
+	margin-top: 4px;
+	font-family: avenir next;
 	color: white;
 	font-size: 24px;
 	background-color: hsla(344, 48%, 74%, 0.5);
@@ -44,4 +45,30 @@ a:active, a:hover {
 	border-width: 0px 4px 0px 4px;
 	border-style: solid;
 	border-color: #FA81A1;
-	}	 
+}	 
+footer {
+font-family: georgia;
+color: white;
+border-style: solid;
+border-width: 0px 4px 0px 4px;
+border-color:#F5A6B0;
+background-color: hsla(352, 32%, 81%, 0.5);
+margin-top: 4px;
+text-align: center;
+}
+#coronavirus {
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 4px;
+outline-style: solid;
+outline-width: 0px 4px 0px 4px;
+outline-color: #F5A6B0;
+border-style: solid;
+border-width: 8px 8px 8px 8px;
+border-color: hsla(352, 32%, 81%, 0.5); 
+}
+#coronavirus.fit {
+max-width: 98%;
+max-height: 98%;
+}
